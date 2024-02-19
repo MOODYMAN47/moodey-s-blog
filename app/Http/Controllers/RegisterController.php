@@ -15,13 +15,12 @@ public function register(Request $request)
         'email' => 'required|string|email|max:255|unique:users',
         'password' => 'required|string|min:8|confirmed',
     ]);
+User::create([
+    "name"=>$request->name,
+    "email"=>$request->email,
+    "password"=>Hash::make($request->password)
+]);
 
-    // Create a new user instance
-    $user = new User();
-    $user->name = $request->name;
-    $user->email = $request->email;
-    $user->password = bcrypt($request->password); // Hash the password
-    $user->save(); // Save the user to the database
 
     // You may want to redirect the user to a different page after registration
     return redirect('/login')->with('success', 'Registration successful. Please login.');

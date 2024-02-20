@@ -34,6 +34,7 @@
                     <a href="#" class="mb-2 tm-btn tm-btn-primary tm-prev-next disabled tm-mr-20">Prev</a>
                     <a href="#" class="mb-2 tm-btn tm-btn-primary tm-prev-next">Next</a>
                 </div>
+                
                 <div class="tm-paging-wrapper">
                     <span class="d-inline-block mr-3">Page</span>
                     <nav class="tm-paging-nav d-inline-block">
@@ -54,6 +55,7 @@
                     </nav>
                 </div>
             </div>
+
             <footer class="row tm-row">
                 <hr class="col-12">
             </footer>

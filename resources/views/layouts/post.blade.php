@@ -30,7 +30,7 @@
                 <div class="col-12">
                     <hr class="tm-hr-primary tm-mb-55">
                     <!-- Video player 1422x800 -->
-                    <video width="954" height="535" controls class="tm-mb-40">
+                    <video width="954" height="535" controls class="tm-mb-40">`
                         <source src="{{ asset('video/wheat-field.mp4') }}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>

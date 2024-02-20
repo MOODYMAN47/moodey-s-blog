@@ -11,6 +11,7 @@
 </head>
 <body>
     @include('layouts.sidebar')
+
         </div>
     </header>
     <div class="container-fluid">
@@ -26,15 +27,30 @@
                     </form>
                 </div>
             </div>
+
             <div class="row tm-row">
+
                 <!-- Your articles loop goes here -->
             </div>
+            <!-- TradingView Widget BEGIN -->
+            <?php
+            use Carbon\Carbon;
+$timezone = 'Europe/Istanbul';
+$now = Carbon::now($timezone);
+echo $now;
+?>
+    <script>
+        const now = new Date();
+        console.log(now);
+    </script>
+</div>
+<!-- TradingView Widget END -->
             <div class="row tm-row tm-mt-100 tm-mb-75">
                 <div class="tm-prev-next-wrapper">
                     <a href="#" class="mb-2 tm-btn tm-btn-primary tm-prev-next disabled tm-mr-20">Prev</a>
                     <a href="#" class="mb-2 tm-btn tm-btn-primary tm-prev-next">Next</a>
                 </div>
-                
+
                 <div class="tm-paging-wrapper">
                     <span class="d-inline-block mr-3">Page</span>
                     <nav class="tm-paging-nav d-inline-block">
@@ -61,7 +77,7 @@
             </footer>
         </main>
     </div>
-    <script src="{{ asset('../js/jquery.min.js') }}"></script>
-    <script src="{{ asset('../js/templatemo-script.js') }}"></script>
+    <script src="{{ asset('../public/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('../public/js/templatemo-script.js') }}"></script>
 </body>
 </html>

@@ -29,7 +29,7 @@
             <div class="row tm-row tm-mb-45">
                 <div class="col-12">
                     <hr class="tm-hr-primary tm-mb-55">
-                    <img src="{{ asset('img/about-01.jpg') }}" alt="Image" class="img-fluid">
+                    <img src="{{ asset('../img/about-01.jpg') }}" alt="Image" class="img-fluid">
                 </div>
             </div>
             <div class="row tm-row tm-mb-40">

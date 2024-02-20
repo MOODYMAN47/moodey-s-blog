@@ -39,9 +39,9 @@
                         <i class="fas fa-users"></i>
                         About US
                     </a></li>
-                    <li class="tm-nav-item"><a href="{{ url('contact.html') }}" class="tm-nav-link">
+                    <li class="tm-nav-item"><a href="{{ url('login') }}" class="tm-nav-link">
                         <i class="far fa-comments"></i>
-                        Contact US
+                        Admin Login
                     </a></li>
                 </ul>
             </nav>

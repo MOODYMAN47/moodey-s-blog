@@ -22,7 +22,7 @@ use App\Http\Controllers\AuthController;
 Route::get('/', [PagesController::class,'blog']);
 Route::get('/post', [PagesController::class,'post']);
 Route::get('/about', [PagesController::class,'about']);
-Route::get('/dashbord', [PagesController::class,'dashbord']);
+Route::get('/dashboard', [PagesController::class,'dashboard']);
 
 
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');

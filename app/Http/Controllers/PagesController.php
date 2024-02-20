@@ -15,8 +15,8 @@ public function post(){
 public function about(){
     return view('layouts.about');
 }
-public function dashbord(){
-    return view('layouts.admin.dashbord');
+public function dashboard(){
+    return view('layouts.admin.dashboard');
 }
 
 }

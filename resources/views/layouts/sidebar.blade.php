@@ -46,10 +46,7 @@
                 </ul>
             </nav>
             <div class="tm-mb-65">
-                <a href="https://facebook.com" class="tm-social-link">
-                    <i class="fab fa-facebook tm-social-icon"></i>
-                </a>
-                <a href="https://instagram.com" class="tm-social-link">
+                <a href="https://www.instagram.com/i__moodye__/" class="tm-social-link">
                     <i class="fab fa-instagram tm-social-icon"></i>
                 </a>
         </div>
